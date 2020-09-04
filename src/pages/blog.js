@@ -9,15 +9,14 @@ export default function Blog({ data }) {
   return (
     <Layout background={"#1e2b33"}>
       <div className="blog">
-        <h1>Amazing Pandas Eating Things</h1>
+        <h1>Nehemiah's Blog</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div key={node.id} className="post">
             <Link to={`${node.fields.slug}`}>
-              <h3>
-                {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
-              </h3>
-              <p>{node.excerpt}</p>
+              <h3>{node.frontmatter.title}</h3>
+              <div className="date">{node.frontmatter.date}</div>
+              <p className="excerpt">{node.excerpt}</p>
             </Link>
           </div>
         ))}

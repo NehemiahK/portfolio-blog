@@ -2,11 +2,11 @@ import React from "react"
 import BurgerMenu from "./BurgerMenu"
 import { Link, graphql } from "gatsby"
 
-const Navbar = () => {
+const Navbar = ({ style }) => {
   return (
     <>
       <BurgerMenu />
-      <div className="navbar">
+      <div className="navbar" style={style}>
         <Link to={"/"} className="brand">
           n
         </Link>

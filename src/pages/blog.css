@@ -1,7 +1,10 @@
 .blog {
   color: white;
   min-height: 80vh;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
 }
 
 .blog h1,
@@ -11,4 +14,24 @@
 .blog a {
   color: white;
   text-decoration: none;
+}
+
+.blog .post {
+  background: #0a0d15;
+  max-width: 500px;
+  padding: 10px 40px;
+  margin: 20px;
+}
+
+.blog .date {
+  font-size: 1.2em;
+}
+.blog h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.blog .excerpt {
+  margin-top: 10px;
+  font-size: 0.8em;
 }
