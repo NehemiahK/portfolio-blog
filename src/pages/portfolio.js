@@ -1,10 +1,12 @@
 import React from "react"
 import "./portfolio.css"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function Portfolio() {
   return (
     <Layout background={"#0d1a21"}>
+      <SEO title={`Portfolio`} description={`Nehemiah's Portfolio`} />
       <div className="portfolio">
         <h2>Portfolio</h2>
         <div className="portfolio-gallery">

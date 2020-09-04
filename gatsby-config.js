@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Nehemiah's Blog`,
+    title: `Nehemiah's Personal Site`,
+    description: `A personal site and blog made by Nehemiah Kivelevitz`,
+    author: `Nehemiah Kivelevitz`,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -37,8 +39,24 @@ module.exports = {
         name: `assets`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Nehemiah's Site`,
+        short_name: `Nehemiah`,
+        start_url: `/`,
+        background_color: `#6b37bf`,
+        theme_color: `#6b37bf`,
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: `standalone`,
+        icon: `content/assets/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

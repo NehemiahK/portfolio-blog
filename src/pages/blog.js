@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import { Link, graphql } from "gatsby"
 
@@ -8,6 +9,7 @@ import "./blog.css"
 export default function Blog({ data }) {
   return (
     <Layout background={"#1e2b33"}>
+      <SEO title={`Blog`} description={`A developer blog by Nehemiah`} />
       <div className="blog">
         <h1>Nehemiah's Blog</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>

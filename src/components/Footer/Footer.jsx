@@ -1,6 +1,5 @@
 import React from "react"
 import "./footer.css"
-import CoffeeButton from "../CofeeButton/CoffeeButton"
 import SocialLinks from "../SocialLinks"
 
 const Footer = () => {

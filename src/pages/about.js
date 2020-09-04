@@ -1,6 +1,6 @@
 import React from "react"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const work = [
   {
@@ -63,6 +63,7 @@ const sections = [
 export default function About() {
   return (
     <Layout background={"#8fafa1"}>
+      <SEO title={`About`} description={`A Fullstack Webdeveloper`} />
       <div className="about">
         <h2>About Me</h2>
         <div className="tagline">

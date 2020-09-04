@@ -1,6 +1,6 @@
 import React from "react"
 import BurgerMenu from "./BurgerMenu"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 const Navbar = ({ style }) => {
   return (
