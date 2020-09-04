@@ -1,0 +1,28 @@
+.social-links a {
+  text-decoration: none;
+  color: #24a777;
+  cursor: pointer;
+}
+
+.social-links a:hover {
+  color: #1d8fca;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin: 0px auto;
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+.footer .social-links {
+  margin-top: 0px;
+  font-size: 1.4em;
+  width: fit-content;
+}
+
+.footer .social-links a {
+  margin: 5.5px;
+}

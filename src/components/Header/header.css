@@ -1,0 +1,59 @@
+.profile-pic {
+  height: 250px;
+  background: #286584;
+  border-radius: 50%;
+}
+
+.App-header {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  background: #0d1a21;
+  color: white;
+}
+
+.picture-text {
+  justify-content: space-evenly;
+  font-size: 34px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 150%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.name {
+  text-align: left;
+  font-size: 2.1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 110%;
+}
+
+.picture-text .text {
+  font-weight: 200;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.picture-text .tagline {
+  font-size: 0.7em;
+}
+
+.text a {
+  color: #52a877;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text a:hover {
+  color: #1d8fca;
+}
+
+@media only screen and (max-width: 600px) {
+  .picture-text {
+    padding-top: 40px;
+  }
+}

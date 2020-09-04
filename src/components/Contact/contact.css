@@ -1,0 +1,58 @@
+.contact {
+  text-align: center;
+  width: 100%;
+}
+
+.contact h2 {
+  padding: 40px;
+  font-size: 2.4em;
+  margin-bottom: 0px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+form input {
+  padding: 10px 0px;
+  font-size: 1.2em;
+  width: 350px;
+  margin: 0px auto;
+}
+
+form textarea {
+  font-size: 1.4em;
+  width: 350px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+form button {
+  padding: 20px;
+  font-size: 1.4em;
+  padding: 10px 26px;
+  outline: none;
+  cursor: pointer;
+  background: #077c7d;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+  border-radius: 4px;
+  color: white;
+}
+
+.button-wrapper {
+  width: 350px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+form label {
+  font-size: 13px;
+  text-align: left;
+  margin-top: 10px;
+}

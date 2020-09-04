@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.App {
+  background: #0d1a21;
+  color: white;
+  margin: 0px auto;
+}
+
+#about {
+  background: #8fafa1;
+  color: #0d1a21;
+  padding-bottom: 100px;
+}
+
+#contact {
+  background: #1e2b33;
+  color: white;
+  padding-bottom: 100px;
+}
+
+#portfolio {
+  color: white;
+}
+
+/*about page*/
+.about {
+  text-align: center;
+  width: 100%;
+  background: #8fafa1;
+  color: #0d1a21;
+}
+/* min-height: 100vh; */
+.about h2 {
+  font-size: 2.4em;
+  margin-bottom: 0px;
+}
+
+.about .tagline {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.about h3 {
+  margin-top: 0px;
+  font-size: 1.5em;
+}
+
+.work-experience {
+  text-align: left;
+  padding: 0% 10%;
+  font-size: 1.2em;
+}
+
+.job-title {
+  font-weight: bolder;
+}

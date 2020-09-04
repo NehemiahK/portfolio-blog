@@ -1,0 +1,14 @@
+.blog {
+  color: white;
+  min-height: 80vh;
+  text-align: center;
+}
+
+.blog h1,
+.blog h4,
+.blog h3,
+.blog .div,
+.blog a {
+  color: white;
+  text-decoration: none;
+}
