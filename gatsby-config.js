@@ -50,7 +50,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        icon: `content/assets/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `content/assets/n.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
