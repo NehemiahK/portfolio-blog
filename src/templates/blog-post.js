@@ -9,7 +9,11 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <Layout navbarColor={"#000000b5"}>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.excerpt}
+        slug={data.markdownRemark.fields.slug || ""}
+      />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -24,6 +28,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+      }
+      fields {
+        slug
       }
       excerpt
     }
